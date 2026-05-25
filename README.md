@@ -5,7 +5,7 @@
 ---
 
 ## 📸 Demo & Links
-*   **Pitch & Demo Video:** *[Insert Video URL Here]*
+*   **Pitch & Demo Video:** *[https://drive.google.com/file/d/1vogHVNf7xBEStIlCg4dLFAU6m3gdxAqO/view?usp=sharing]*
 *   **Platform Explorer:** [https://testnet.arcscan.app](https://testnet.arcscan.app)
 *   **GigaGig Contract:** [`0xe8b0702eb6c1a4e4f769049444b2b6b7c35ae502`](https://testnet.arcscan.app/address/0xe8b0702eb6c1a4e4f769049444b2b6b7c35ae502)
 
@@ -40,7 +40,7 @@ sequenceDiagram
     participant FE as GigaGig Frontend
     participant BE as GigaGig Backend Engine
     participant Contract as GigaGigPlatform (Arc)
-    Worker->>FE: Completes image labeling task
+    Worker->>FE: Completes image dán nhãn task
     FE->>BE: Submit Task answer & Worker Address
     Note over BE: Verifies answer & signs payout
     BE->>Contract: Calls payoutMicroTask() (Master Wallet pays gas)
