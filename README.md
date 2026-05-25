@@ -5,9 +5,13 @@
 ---
 
 ## 📸 Demo & Links
-*   **Pitch & Demo Video:** *[https://drive.google.com/file/d/1vogHVNf7xBEStIlCg4dLFAU6m3gdxAqO/view?usp=sharing]*
+*   **Live Deployed Platform:** [https://giga-gig.vercel.app/](https://giga-gig.vercel.app/)
+*   **Pitch & Demo Video:** [https://drive.google.com/file/d/1vogHVNf7xBEStIlCg4dLFAU6m3gdxAqO/view?usp=sharing](https://drive.google.com/file/d/1vogHVNf7xBEStIlCg4dLFAU6m3gdxAqO/view?usp=sharing)
 *   **Platform Explorer:** [https://testnet.arcscan.app](https://testnet.arcscan.app)
 *   **GigaGig Contract:** [`0xe8b0702eb6c1a4e4f769049444b2b6b7c35ae502`](https://testnet.arcscan.app/address/0xe8b0702eb6c1a4e4f769049444b2b6b7c35ae502)
+
+### 🖥️ Platform Preview
+![GigaGig Platform Home Screen](public/giga_home_screen.png)
 
 ---
 
