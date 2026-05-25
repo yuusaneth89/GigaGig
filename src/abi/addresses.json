@@ -1,0 +1,7 @@
+{
+  "GigaGigPlatform": "0xebabda51c1478039892768ae886d2ec1e134cd03",
+  "USDC": "0x3600000000000000000000000000000000000000",
+  "chainName": "Arc Testnet",
+  "chainId": 5042002,
+  "explorer": "https://testnet.arcscan.app"
+}

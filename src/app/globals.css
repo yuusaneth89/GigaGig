@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Plus+Jakarta+Sans:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: #F4F3F0; /* Cream background from The Canvas */
+  --foreground: #1F1E1D; /* Deep Charcoal from The Canvas */
+  --accent-salmon: #EA7A60; /* Coral/Salmon desaturated */
+  --accent-salmon-hover: #D86950;
+  --neo-border: #1F1E1D;
+  --neo-shadow: #1F1E1D;
+  --card-bg: #FFFFFF;
+  --cream-dark: #E6E4DE;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-salmon: var(--accent-salmon);
+  --color-salmon-hover: var(--accent-salmon-hover);
+  --color-cream-dark: var(--cream-dark);
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: 'Space Grotesk', monospace;
+}
+
+/* Custom Base Stylings */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Neo-Brutalism & Editorial Utility Classes */
+.neo-border-thick {
+  border: 3px solid var(--neo-border);
+}
+
+.neo-border-thin {
+  border: 1.5px solid var(--neo-border);
+}
+
+.neo-shadow-thick {
+  box-shadow: 4px 4px 0px var(--neo-border);
+}
+
+.neo-shadow-medium {
+  box-shadow: 3px 3px 0px var(--neo-border);
+}
+
+.neo-shadow-small {
+  box-shadow: 2px 2px 0px var(--neo-border);
+}
+
+.neo-card {
+  background-color: var(--card-bg);
+  border: 2.5px solid var(--neo-border);
+  box-shadow: 5px 5px 0px var(--neo-border);
+  border-radius: 12px;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.neo-card-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0px var(--neo-border);
+}
+
+.neo-btn {
+  background-color: var(--accent-salmon);
+  color: var(--neo-border);
+  border: 2px solid var(--neo-border);
+  box-shadow: 3px 3px 0px var(--neo-border);
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.1s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.neo-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px var(--neo-border);
+}
+
+.neo-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px var(--neo-border);
+}
+
+.neo-btn-white {
+  background-color: #FFFFFF;
+  color: var(--neo-border);
+  border: 2px solid var(--neo-border);
+  box-shadow: 3px 3px 0px var(--neo-border);
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.1s ease;
+}
+
+.neo-btn-white:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px var(--neo-border);
+}
+
+.neo-btn-white:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px var(--neo-border);
+}
+
+.neo-btn-charcoal {
+  background-color: var(--neo-border);
+  color: var(--background);
+  border: 2px solid var(--neo-border);
+  box-shadow: 3px 3px 0px #000000;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.1s ease;
+}
+
+.neo-btn-charcoal:hover {
+  background-color: #333130;
+  transform: translate(-1px, -1px);
+}
+
+.neo-badge {
+  border: 1.5px solid var(--neo-border);
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Custom Scrollbar for Neo-Brutalist theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+  border-left: 2px solid var(--neo-border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cream-dark);
+  border: 2px solid var(--neo-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-salmon);
+}
+
+/* Vintage Grain/Grid Paper Overlays */
+.editorial-grid {
+  background-image: linear-gradient(var(--cream-dark) 1px, transparent 1px),
+                    linear-gradient(90deg, var(--cream-dark) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.dashed-separator {
+  border-top: 2px dashed var(--neo-border);
+}
+
+/* Simple keyframe fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

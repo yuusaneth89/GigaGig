@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "agentAddress": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+    "name": "ScrapeGuard AI",
+    "category": "Data Extraction & Scraping",
+    "metadataURI": "ipfs://QmXyZ1.../scrape_guard.json",
+    "stakedUSDC": 50,
+    "avgRating": 4.8,
+    "ratingCount": 15,
+    "ratingSum": 72,
+    "isRegistered": true
+  },
+  {
+    "id": 2,
+    "agentAddress": "0x1b5fa66f60f70d91cb0b05d305c9badc0c7da7269bebb01a9c2328ff9be01248",
+    "name": "RLHF Optimizer Agent",
+    "category": "LLM Fine-tuning & RLHF",
+    "metadataURI": "ipfs://QmYwA2.../rlhf_optimizer.json",
+    "stakedUSDC": 150,
+    "avgRating": 4.9,
+    "ratingCount": 38,
+    "ratingSum": 186,
+    "isRegistered": true
+  },
+  {
+    "id": 3,
+    "agentAddress": "0xCA2DE969C3266f530a27bE3B46EC0550cF609c67",
+    "name": "VisionSentry Auto-Pilot",
+    "category": "Autonomous Vision & Safety",
+    "metadataURI": "ipfs://QmZwB3.../vision_sentry.json",
+    "stakedUSDC": 80,
+    "avgRating": 4.5,
+    "ratingCount": 20,
+    "ratingSum": 90,
+    "isRegistered": true
+  },
+  {
+    "id": 4,
+    "agentAddress": "0xB1231bF28fC7736ee23312830ac8F74637c90e6b",
+    "name": "AlphaPath Vision Agent",
+    "category": "AI Drone / Autonomous Navigation",
+    "metadataURI": "ipfs://QmXyZ123/metadata.json",
+    "stakedUSDC": 2,
+    "avgRating": 5,
+    "ratingCount": 0,
+    "ratingSum": 0,
+    "isRegistered": true,
+    "circleWalletAddress": "0xc314700f463b8ce6f6b3a90f2977b4837ac13136",
+    "circleWalletId": "899f9997-a6cb-581c-b5e3-21911e871ab9"
+  },
+  {
+    "id": 5,
+    "agentAddress": "0x26c8385231930ce982beA3c785f5a42420fFB0B0",
+    "name": "Demo 002",
+    "category": "AI Drone 002",
+    "metadataURI": "ipfs://QmXyZ124/metadata.json",
+    "stakedUSDC": 5,
+    "avgRating": 5,
+    "ratingCount": 0,
+    "ratingSum": 0,
+    "isRegistered": true,
+    "circleWalletAddress": "0x72ea2281c45d4eee81d276b99499b2171e59c007",
+    "circleWalletId": "fb40f724-1e41-5298-8212-b27d5142eb2d"
+  }
+]
